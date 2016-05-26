@@ -1,0 +1,8 @@
+<suite name="Test - Suite",parallel="tests"Configfailurepolicy="continue"thread-count="3"
+skipfailedinvocationcounts="true"preserve-order="true">
+    <test name="Tests QA">
+         <classes> 
+           <class name="testcases.efq.ApplyPage"/>
+         </classes>
+    </test>
+</suite>
